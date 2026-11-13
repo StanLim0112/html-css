@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8fafc;
+    color: #111827;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #111827;
+}
+
+.material-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+}
+
+.material-shelf p {
+    color: #4b5563;
+}
+
+.material-card h3 {
+    margin-top: 0;
+    color: #1d4ed8;
+}
+
+/* Navigation Bar on the top */
+.quick-nav {
+    padding: 20px;
+    background-color: white;
+}
+
+.quick-nav>a {
+    margin-right: 16px;
+    color: #111827;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.intro-panel,
+.material-shelf,
+.downloads,
+.page-footer {
+    max-width: 1000px;
+    margin: 32px auto;
+    padding: 0 24px;
+}
+
+.intro-panel {
+    padding-top: 48px;
+}
+
+.kicker {
+    color: #2563eb;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.material-shelf {
+    background-color: #eff6ff;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+.shelf-intro {
+    max-width: 620px;
+}
+
+.material-list {
+    margin-top: 24px;
+}
+
+.material-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #dbeafe;
+    border-radius: 18px;
+    margin-top: 16px;
+}
+
+.lesson-link {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 10px 14px;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.material-shelf .lesson-link {
+    background-color: #2563eb;
+}
+
+.lesson-link:hover,
+.lesson-link:focus {
+    background-color: #0f766e;
+    outline: 3px solid #bfdbfe;
+    outline-offset: 3px;
+}
+
+a {
+    color: #2563eb;
+    background-color: transparent;
+}
+
+/* A later order with the same rule will overrule the previous style */
+/* .material-card {
+  border: 1px solid #93c5fd;
+} */
+
+/* Changes the font color (descendant selector)*/
+/* .downloads a {
+    color: #0f766e;
+} */
+
+/* Changes the font color of material card's paragraph (descendant selector)*/
+.material-card p {
+    color: #d31cae;
+}
+
+/* Changes a specific paragraph font size (child selector)*/
+.material-shelf>p {
+    font-size: 24px;
+}
+
+/* Changes the background color and font color when focused and hovered */
+.quick-nav>a:hover,
+.quick-nav>a:focus {
+    background-color: #1d4ed8;
+    color: #f8fafc;
+}
+
+.tools {
+    max-width: 1000px;
+    margin: 32px auto;
+    padding: 0 24px;
+}
+
+.tools a {
+    display: flex;
+}
+
+.tools a:hover,
+.tools a:focus {
+    background-color: #111827;
+    color: #f8fafc;
+}
