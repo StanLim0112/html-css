@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource selector lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="quick-nav">
+        <a href="#material-shelf">Materials</a>
+        <a href="#downloads">Downloads</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- <span> is used to target a item without creating a new line -->
+
+    <header class="intro-panel">
+        <p class="kicker">Selector practice</p>
+        <h1>Pick selectors by reach</h1>
+        <p>
+            Style one section without accidentally changing every similar element
+            on the page.
+        </p>
+    </header>
+
+    <main>
+        <section class="material-shelf" id="material-shelf">
+            <h2>Workshop materials</h2>
+            <p class="shelf-intro">
+                Each card below points to one short practice note. The section has
+                its own links, but the rest of the page has links too.
+            </p>
+
+            <div class="material-list">
+                <article class="material-card">
+                    <h3>HTML checklist</h3>
+                    <p>Review the page pieces that every HTML document needs.</p>
+                    <a class="lesson-link" href="#html-checklist">Open notes</a>
+                </article>
+
+                <article class="material-card">
+                    <h3>CSS notes</h3>
+                    <p>Compare class selectors, descendant selectors, and child selectors.</p>
+                    <a class="lesson-link" href="#css-notes">Open notes</a>
+                </article>
+
+                <article class="material-card">
+                    <h3>Accessibility check</h3>
+                    <p>Check whether hover and focus feedback are both visible.</p>
+                    <a class="lesson-link" href="#accessibility-check">Open notes</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="downloads" id="downloads">
+            <h2>Download files</h2>
+            <p>
+                Use short experiments to check whether a selector matches what you
+                expected.
+            </p>
+            <a href="#notes">Download starter</a>
+        </section>
+
+        <section class="tools">
+            <h2>Tools to practise with</h2>
+            <p>Use simple files first, then build larger pages.</p>
+            <a href="#editor">Code editor</a>
+            <a href="#browser">Browser</a>
+        </section>
+    </main>
+
+    <footer class="page-footer" id="contact">
+        <p>Built with HTML and CSS.</p>
+        <a href="#top">Back to top</a>
+    </footer>
+</body>
+
+</html>
