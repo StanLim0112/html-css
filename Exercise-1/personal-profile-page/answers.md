@@ -1,7 +1,8 @@
 # Personal profile page: my answers
 
 ## 1. Which line controls the browser tab title?
-Line Number 7
+<!-- Line Number 7 -->
+It is line number 7 which is <title>About myself</title>
 
 ## 2. Which part of your HTML contains the visible page content?
 From line 10 to line 73, essentially within the <body> tag
