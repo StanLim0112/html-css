@@ -1,10 +1,12 @@
 # CSS foundations: my answers
 
 ## 1. Which line in `index.html` connects the CSS file?
-line 8 with ref to style.css
+<!-- line 8 with ref to style.css -->
+Line 8, <link rel="stylesheet" href="style.css">
 
 ## 2. In `body { background-color: #ecfdf5; }`, what is the selector?
-the body tag "<body>"
+<!-- the body tag "<body>" -->
+The selector is "body" while "<body>" is the element in the HTML that the selector matches
 
 ## 3. In that same rule, what is the property and what is the value?
 The property is the "background-color" which changes the color and the value is #ecfdf5
@@ -16,4 +18,6 @@ it is to find and look for a class that matches in order to change the property 
 The difference between them is padding is used for the space inside the element's border while margin is used for the space outside of the element's border
 
 ## 6. Which selector, property and value did you change in "Make one small change", and what changed on the page?
-I changed the "body" selector. I changed the "background-color" property and the value of "#ecfdf5" to "#0e415c". It basically change the background color between the padding and the margin from white to a darker blue/teal color.
+<!-- I changed the "body" selector. I changed the "background-color" property and the value of "#ecfdf5" to "#0e415c". It basically change the background color between the padding and the margin from white to a darker blue/teal color. -->
+
+Body changes the full page behind the card, not only the space between the padding and the margin
