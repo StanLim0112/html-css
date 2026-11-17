@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #111827;
+  line-height: 1.5;
+}
+
+.page-shell {
+  max-width: 1040px;
+  margin: 48px auto;
+  padding: 0 16px;
+}
+
+.page-header {
+  max-width: 640px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #0f766e;
+  font-weight: 700;
+}
+
+.page-header h1 {
+  margin: 0 0 12px;
+}
+
+.page-header p:last-child {
+  margin: 0;
+  color: #4b5563;
+}
+
+.resource-row {
+  margin-top: 32px;
+}
+
+/* .resource-tile {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 24px;
+  padding: 24px;
+  border: 1px solid #ccfbf1;
+  border-radius: 18px;
+  background-color: white;
+} */
+ /* flex: 1 1 220px, (1 1 x) the tiles can grow if there is extra space, the tile can shrink if there is not sufficient space */
+ .resource-tile {
+  flex: 1 1 220px;
+  max-width: 300px;
+  padding: 24px;
+  border: 1px solid #ccfbf1;
+  border-radius: 18px;
+  background-color: white;
+}
+
+.resource-type {
+  margin: 0 0 12px;
+  color: #0f766e;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.resource-tile h2 {
+  margin: 0 0 8px;
+  font-size: 1.35rem;
+}
+
+.resource-tile p:not(.resource-type) {
+  margin: 0 0 18px;
+  color: #4b5563;
+}
+
+.resource-link {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 999px;
+  background-color: #0f766e;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resource-link:hover,
+.resource-link:focus {
+  background-color: #115e59;
+  outline: 3px solid #99f6e4;
+  outline-offset: 2px;
+}
+
+/* .resource-row {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .resource-tile {
+  margin-bottom: 24px;
+} */
+
+/* justify-content: center puts the row of tiles in the center when there is extra horizontal space */
+/* align-items: stretch makes all the tiles in a row the same height, also when their content has a different length */
+/* Added flex-wrap: wrap; */
+.resource-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 24px;
+}
+
