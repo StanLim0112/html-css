@@ -4,7 +4,7 @@
 The body selector which is from line 1-7, more specifically it's the background-color property
 
 ## 2. Which selector styles the design that all cards use?
-<!-- (Line 75 - 92 of style.css) The ".material-card" changes the overall design of the card while the ".lesson-Link" inside of the card changes the button and the link design -->
+`<!-- (Line 75 - 92 of style.css) The ".material-card" changes the overall design of the card while the ".lesson-Link" inside of the card changes the button and the link design -->`
 
 A small note: these rules are now on lines 83-100, because you added rules above them later.
 

@@ -6,8 +6,7 @@ When you wanna target a specific element  without affecting all the elements wit
 ## 2. What does the space mean in `.material-shelf p`?
 <!-- It means it is a descendant selector to target all the elements in the section -->
 
-Not all the elements in the section. Which elements does this selector find?
-It will target all the elements within the class regardless of layers
+It will target only the <p> elements inside of `.material-shelf` itself.
 
 ## 3. What does `>` mean in `.quick-nav > a`?
 It is a child selector to target all element with the <a> element that has an element with .quick-nav class as its parent
