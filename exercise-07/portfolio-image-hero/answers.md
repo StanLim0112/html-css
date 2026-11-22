@@ -13,4 +13,4 @@ The images/portfolio-background goes in the CSS since it is a decorative image t
 (Line 121 of style.css) The ".image-panel" element is the one that sets the boundary for the positioned label with the "position:relative" property and value.
 
 ## 5. What did you do to keep the text easy to read?
-For example for the content of the page which is in the class "hero-content" I created the CSS rule to make a panel with an almost solid background of white to make the text easy to read so that the text itself won't blend into the background image
+For example for the content of the page which is in the class "hero-content" I created the CSS rule to make a panel with an almost solid background of white to make the text easy to read so that the text itself won't blend into the background image.
