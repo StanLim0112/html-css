@@ -2,7 +2,7 @@
 
 ## 1. Which line in your HTML connects `style.css`?
 <!-- Line 8 -->
-Line 8 ,<link rel="stylesheet" href="style.css">
+Line 8 ,`<link rel="stylesheet" href="style.css">`
 
 ## 2. Which selector styles the full page or the page background?
 <!-- the body and .resource-card because it changes the "background-color" of the respective areas -->
