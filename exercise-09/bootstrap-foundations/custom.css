@@ -1,0 +1,44 @@
+body {
+  background-color: #f8fafc;
+  color: #18212f;
+}
+
+.pattern-intro {
+  background:
+    linear-gradient(135deg, rgba(13, 110, 253, 0.12), rgba(32, 201, 151, 0.12)),
+    #f8fbff;
+}
+
+.lab-label {
+  color: #0d6efd;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.practice-panel {
+  border: 1px solid #d7e3f4;
+  border-radius: 1.25rem;
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+.topic-card {
+  border-color: #d7e3f4;
+  border-radius: 1rem;
+}
+
+.form-slice {
+  background-color: #eef5ff;
+}
+
+/* CUSTOM CSS for added section */
+.workshop-section {
+  background-color: #f8f9fa;
+}
+
+.simple-card {
+  border-top: 4px solid #0d6efd;
+  border-radius: 8px;
+}

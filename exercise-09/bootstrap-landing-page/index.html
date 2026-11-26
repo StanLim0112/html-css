@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap landing page</title>
+  <link rel="stylesheet" href="vendor/bootstrap-5.3.9/css/bootstrap.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <script defer src="vendor/bootstrap-5.3.9/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header id="home">
+    <!-- Added navbar menu class -->
+    <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Neighborhood Studio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu"
+          aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero-section pattern-intro py-5" aria-labelledby="page-title">
+      <div class="container">
+        <div class="row align-items-center justify-content-between g-4">
+          <div class="col-lg-6">
+            <p class="eyebrow">Local creative support</p>
+            <h1 class="display-5 fw-bold" id="page-title">A simple page for a small studio.</h1>
+            <p class="lead">
+              Use Bootstrap classes to make this page responsive, readable,
+              and easier to scan.
+            </p>
+
+            <div>
+              <a class="btn btn-primary btn-lg" href="#contact">Book a session</a>
+            </div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="info-panel shadow-sm">
+              <p class="mb-2 fw-bold">What the page should show</p>
+              <ul class="mb-0">
+                <li>responsive navbar</li>
+                <li>hero layout</li>
+                <li>three service cards</li>
+                <li>contact form</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section py-5" aria-labelledby="services-title">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-8">
+            <p class="eyebrow">Services</p>
+            <h2 id="services-title">Choose what Bootstrap should handle.</h2>
+            <p>
+              These three items should become responsive cards. Use Bootstrap
+              for the repeated layout and card structure.
+            </p>
+          </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <article class="service-card card h-100">
+              <div class="card-body">
+                <h3>Planning</h3>
+                <p>Turn an idea into a short page outline.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="service-card card h-100">
+              <div class="card-body">
+                <h3>Design review</h3>
+                <p>Check spacing, typography, and visual hierarchy.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col">
+            <article class="service-card card h-100">
+              <div class="card-body">
+                <h3>Launch check</h3>
+                <p>Test the page at mobile and desktop widths.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4 p-md-5">
+                <p class="eyebrow">Contact</p>
+                <h2 id="contact-title">Send a message.</h2>
+                <form>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label class="form-label" for="name">Name</label>
+                      <input class="form-control" id="name" type="text">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label class="form-label" for="email">Email</label>
+                      <input class="form-control" id="email" type="email">
+                    </div>
+
+                    <div class="col-12">
+                      <label class="form-label" for="message">Message</label>
+                      <textarea class="form-control" id="message" rows="4"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                      <button class="btn btn-primary" type="submit">Send message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <p class="mb-0">Neighborhood Studio</p>
+    </div>
+  </footer>
+</body>
+
+</html>

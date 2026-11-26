@@ -1,0 +1,51 @@
+body {
+  color: #1f2937;
+  background-color: #f8fafc;
+}
+
+.hero-section {
+  background-color: #f1f7ff;
+}
+
+.eyebrow {
+  color: #0d6efd;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.info-panel,
+.service-card {
+  border: 1px solid #d7e3f4;
+  background-color: #ffffff;
+}
+
+.info-panel {
+  border-radius: 1.25rem;
+  padding: 2rem;
+}
+
+.service-card {
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.5rem 1.25rem rgba(15, 23, 42, 0.08);
+}
+
+.services-section {
+  background-color: #ffffff;
+}
+
+.contact-section {
+  background-color: #f1f7ff;
+}
+
+/* Added to slightly match the border-radius of info-panel and service-card */
+.contact-section .card {
+  border: 1px solid #d7e3f4;
+  border-radius: 1rem;
+}
